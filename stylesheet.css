@@ -1,0 +1,192 @@
+body {
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMCIvPgogICAgPHN0b3Agb2Zmc2V0PSI2MyUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMCIvPgogICAgPHN0b3Agb2Zmc2V0PSI5OSUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC42NSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuNjUiLz4KICA8L3JhZGlhbEdyYWRpZW50PgogIDxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+
+  background: -moz-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0) 63%,
+    rgba(0, 0, 0, 0.65) 99%,
+    rgba(0, 0, 0, 0.65) 100%
+  ); /* FF3.6+ */
+
+  background: -webkit-gradient(
+    radial,
+    center center,
+    0px,
+    center center,
+    100%,
+    color-stop(0%, rgba(0, 0, 0, 0)),
+    color-stop(63%, rgba(0, 0, 0, 0)),
+    color-stop(99%, rgba(0, 0, 0, 0.65)),
+    color-stop(100%, rgba(0, 0, 0, 0.65))
+  ); /* Chrome,Safari4+ */
+
+  background: -webkit-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0) 63%,
+    rgba(0, 0, 0, 0.65) 99%,
+    rgba(0, 0, 0, 0.65) 100%
+  ); /* Chrome10+,Safari5.1+ */
+
+  background: -o-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0) 63%,
+    rgba(0, 0, 0, 0.65) 99%,
+    rgba(0, 0, 0, 0.65) 100%
+  ); /* Opera 12+ */
+
+  background: -ms-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0) 63%,
+    rgba(0, 0, 0, 0.65) 99%,
+    rgba(0, 0, 0, 0.65) 100%
+  ); /* IE10+ */
+
+  background: radial-gradient(
+    center,
+    ellipse cover,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0) 63%,
+    rgba(0, 0, 0, 0.65) 99%,
+    rgba(0, 0, 0, 0.65) 100%
+  ); /* W3C */
+
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
+
+  background-color: rgb(149, 195, 217);
+}
+
+#bag,
+#bagindex {
+  transition: transform 0.2s;
+}
+
+#bag:hover,
+#bagindex:hover {
+  transform: scale(1.2);
+}
+
+#Chunky {
+  transition: transform 0.2s;
+}
+
+#Chunky:hover {
+  content: url(assets/images/chunky-boot.gif);
+  transform: scale(1.4);
+}
+
+#knit {
+  transition: transform 0.2s;
+}
+
+#knit:hover {
+  content: url(assets/images/knit-rnr-boot.gif);
+  transform: scale(1.4);
+}
+
+#sherp {
+  transition: transform 0.2s;
+}
+
+#sherp:hover {
+  content: url(assets/images/sherp-boot.gif);
+  transform: scale(1.4);
+  margin: 25px;
+}
+
+#nstld {
+  transition: transform 0.2s;
+}
+
+#ntlsd:hover {
+  content: url(assets/images/nstld.gif);
+  transform: scale(1.4);
+}
+
+#slide {
+  transition: transform 0.2s;
+}
+
+#slide:hover {
+  content: url(assets/images/3d-slide.gif);
+  transform: scale(1.4);
+}
+
+#baseball {
+  transition: transform 0.2s;
+}
+
+#baseball:hover {
+  content: url(assets/images/padded-baseball-tee.gif);
+  transform: scale(1.4);
+}
+
+#vest {
+  transition: transform 0.2s;
+}
+
+#vest:hover {
+  content: url(assets/images/padded-vest.gif);
+  transform: scale(1.4);
+}
+
+#puffer {
+  transition: transform 0.2s;
+}
+
+#puffer:hover {
+  content: url(assets/images/cropped-puffer.gif);
+  transform: scale(1.4);
+}
+
+#forbiddem {
+  transition: transform 0.2s;
+}
+
+#forbiddem:hover {
+  content: url(assets/images/forbidden-tee.gif);
+  transform: scale(1.4);
+}
+
+#wax {
+  transition: transform 0.2s;
+}
+
+#wax:hover {
+  content: url(assets/images/wax-knot-pants.gif);
+  transform: scale(1.4);
+}
+
+#padded {
+  transition: transform 0.2s;
+}
+
+#padded:hover {
+  content: url(assets/images/padded-jersey-pants.gif);
+  transform: scale(1.4);
+}
+
+#leggings {
+  transition: transform 0.2s;
+}
+
+#leggings:hover {
+  content: url(assets/images/padded-leggings.gif);
+  transform: scale(1.4);
+}
+
+.button-checkout {
+  border: solid;
+  border-color: black;
+  border-radius: 12px;
+  border-width: 3.5px;
+  height: 40px;
+  padding: 8px;
+}
