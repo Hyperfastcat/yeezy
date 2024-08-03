@@ -116,7 +116,7 @@ body {
 
 #slide:hover {
   content: url(assets/images/3d-slide.gif);
-  transform: scale(1.4);
+  transform: scale(1.1);
 }
 
 #baseball {
